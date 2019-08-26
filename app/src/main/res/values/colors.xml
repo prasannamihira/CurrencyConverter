@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DF3A3A</color>
+    <color name="colorPrimaryDark">#DF3A3A</color>
+    <color name="colorAccent">#ff5959</color>
+
+    <color name="textColorPrimary">#333B3F</color>
+    <color name="view_separator">#E8EAEF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="darkAsh">#333e48</color>
+    <color name="black5">#0c000000</color>
+    <color name="gray">#EDEFED</color>
+    <color name="ash">#999fa5</color>
+    <color name="red">#d43242</color>
+</resources>

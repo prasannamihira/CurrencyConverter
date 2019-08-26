@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="1000px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_24dp"
+        android:layout_marginTop="@dimen/padding_20dp"
+        android:fontFamily="@font/muli_semibold"
+        android:textSize="@dimen/text_16sp"
+        android:textColor="@color/textColorPrimary"
+        android:text="@string/fragment_select_currency"/>
+
+    <SearchView
+        android:id="@+id/searchViewBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_30dp"
+        android:paddingBottom="@dimen/padding_8dp">
+
+    </SearchView>
+
+    <com.paypay.currencyapp.ui.common.countrycode.IndexableListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_8dp"
+        android:paddingBottom="@dimen/padding_8dp"/>
+
+
+</LinearLayout>
