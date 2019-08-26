@@ -10,7 +10,7 @@ import com.paypay.currencyapp.data.model.CountryCode
 import com.paypay.currencyapp.ui.common.countrycode.ListViewAdapter
 import kotlinx.android.synthetic.main.list_item_currency_rate.view.*
 
-class CurrencyRateListAdapter(private var items: List<CountryCode>, val context:Context) :
+class CurrencyRateListAdapter(private var items: List<CountryCode>, val context: Context) :
     RecyclerView.Adapter<CurrencyRateListAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -27,7 +27,7 @@ class CurrencyRateListAdapter(private var items: List<CountryCode>, val context:
         fun bind(item: CountryCode) {
 
             val image = ListViewAdapter.GetImage(context, item.isoCode.toLowerCase())
-            if(image != null) {
+            if (image != null) {
                 itemView.iv_item_flag.setBackgroundDrawable(image)
             }
 

@@ -14,7 +14,6 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         buildConfigField "String", "BASE_URL", '"http://apilayer.net/api/"'
-
     }
     buildTypes {
         dev {
@@ -93,7 +92,6 @@ dependencies {
 
     // Logging
     implementation 'com.jakewharton.timber:timber:4.5.1'
-
 
     testImplementation 'junit:junit:4.12'
     implementation "org.mockito:mockito-core:2.18.3"

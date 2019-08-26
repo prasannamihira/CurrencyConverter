@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
-
     <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
@@ -50,7 +49,6 @@
                             android:layout_height="@dimen/padding_24dp"
                             android:layout_gravity="top"
                             android:src="@drawable/ic_arrow_down" />
-
                     </LinearLayout>
 
                     <View
@@ -69,15 +67,12 @@
                         android:inputType="numberDecimal"
                         android:singleLine="true"
                         android:text="0" />
-
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/padding_2dp"
                     android:background="@color/view_separator" />
-
-
             </LinearLayout>
 
             <androidx.core.widget.NestedScrollView
@@ -99,8 +94,6 @@
                 android:layout_centerInParent="true"
                 android:layout_gravity="center"
                 android:visibility="gone" />
-
         </RelativeLayout>
-
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

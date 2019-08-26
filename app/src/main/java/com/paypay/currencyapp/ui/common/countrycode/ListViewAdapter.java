@@ -121,7 +121,6 @@ public class ListViewAdapter extends BaseAdapter implements Filterable, SectionI
             protected void publishResults(CharSequence constraint, FilterResults results) {
                 final ArrayList<CountryCode> filteredDate = (ArrayList<CountryCode>) results.values;
                 countryList = filteredDate;
-                //new ListViewAdapter(context, filteredDate);
                 notifyDataSetChanged();
             }
         };
